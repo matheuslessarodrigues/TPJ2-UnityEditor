@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.vs/New Unity Project/v14/.suo
+
+# Unity
+.vs
+Library/*
+Assets/BitStrap/*
+Assets/BitStrap.meta
+Temp/*
