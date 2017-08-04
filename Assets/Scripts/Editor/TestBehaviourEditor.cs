@@ -10,8 +10,20 @@ public class TestBehaviourEditor : Editor
 
     public override void OnInspectorGUI()
     {
+        //base.OnInspectorGUI();
+
         TestBehaviour testBehaviour = target as TestBehaviour;
 
+        //testBehaviour.array
+        for( int i = 0; i < testBehaviour.list.Count; i++)
+        {
+            testBehaviour.list[i] =
+                EditorGUILayout.IntField("Array " + i,
+                testBehaviour.list[i]);
+        }
+        
+
+        /*
         testBehaviour.propriedade =
             EditorGUILayout.IntField("Tomate",
             testBehaviour.propriedade);
@@ -22,6 +34,11 @@ public class TestBehaviourEditor : Editor
         testBehaviour.texto =
             EditorGUILayout.TextArea(testBehaviour.texto);
 
+        testBehaviour.lookAtTarget =
+            EditorGUILayout.ObjectField("Target",
+            testBehaviour.lookAtTarget, typeof(Transform),
+            true) as Transform;
+            */
         EditorGUILayout.LabelField("BATATA", EditorStyles.boldLabel);
 
         if( GUILayout.Button("RESETAR TRASNFORM") )

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPJ2-UnityEditor", "TPJ2-UnityEditor.csproj", "{DBEEFAFE-627A-D3D3-AA7C-0998BA4D58E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPJ2-UnityEditor.Editor", "TPJ2-UnityEditor.Editor.csproj", "{84F09EF4-BB65-AA89-EC13-8749234D2E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBEEFAFE-627A-D3D3-AA7C-0998BA4D58E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEEFAFE-627A-D3D3-AA7C-0998BA4D58E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEEFAFE-627A-D3D3-AA7C-0998BA4D58E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEEFAFE-627A-D3D3-AA7C-0998BA4D58E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F09EF4-BB65-AA89-EC13-8749234D2E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F09EF4-BB65-AA89-EC13-8749234D2E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F09EF4-BB65-AA89-EC13-8749234D2E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F09EF4-BB65-AA89-EC13-8749234D2E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -10,6 +10,8 @@ public class TestBehaviour : MonoBehaviour
     public int propriedade;
     public string texto;
 
+    public List<int> list= new List<int>() { 1,2,3,4,5 };
+
     public void DoSomething()
     {
         Debug.Log("KOEH");
