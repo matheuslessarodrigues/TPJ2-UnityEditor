@@ -180,6 +180,7 @@
     <Compile Include="Assets\BitStrap\Plugins\Util\SafeAction.cs" />
     <Compile Include="Assets\BitStrap\Plugins\Util\Singleton.cs" />
     <Compile Include="Assets\BitStrap\Plugins\Util\Timer.cs" />
+    <Compile Include="Assets\Scripts\LerpTest.cs" />
     <Compile Include="Assets\Scripts\TestBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
