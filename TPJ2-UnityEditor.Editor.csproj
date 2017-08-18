@@ -202,6 +202,7 @@
     <Compile Include="Assets\BitStrap\Plugins\Util\Editor\EditorPrefProperty.cs" />
     <Compile Include="Assets\BitStrap\Plugins\Util\Editor\TimerDrawer.cs" />
     <Compile Include="Assets\BitStrap\Shaders\Editor\BackgroundBlurEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\Av1Editor.cs" />
     <Compile Include="Assets\Scripts\Editor\LerpTestEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\TestBehaviourEditor.cs" />
   </ItemGroup>
