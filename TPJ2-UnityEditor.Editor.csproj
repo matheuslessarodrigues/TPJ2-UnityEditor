@@ -115,18 +115,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Assets\BitStrap\Plugins\AssemblyProcessor\Editor\Cecil\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil.Mdb">
-      <HintPath>Assets\BitStrap\Plugins\AssemblyProcessor\Editor\Cecil\Mono.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>Assets\BitStrap\Plugins\AssemblyProcessor\Editor\Cecil\Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\BitStrap\Plugins\NewtonsoftJson\Newtonsoft.Json.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TPJ2-UnityEditor.csproj">
@@ -135,86 +123,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BitStrap\Examples\AssemblyProcessor\Editor\MethodInjectionProcessor.cs" />
-    <Compile Include="Assets\BitStrap\Examples\EditorGraph\Editor\MyGraphEditor.cs" />
-    <Compile Include="Assets\BitStrap\Examples\EditorGraph\Editor\MyGraphNodeController.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Extensions\Editor\RectExtensionsExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Editor\AllEditorStylesExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Editor\EditorHelperExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Editor\ProjectBrowserHelperExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Editor\ScriptDefinesHelperExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Editor\StaticReflectionHelperExample.cs" />
-    <Compile Include="Assets\BitStrap\Examples\Helpers\Math\Editor\VectorHelperExampleEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\Editor\AnimationParameterDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Animation\Editor\AnimatorControllerEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\AssemblyIO.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\AssemblyProcessor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\AssemblyProcessorManager.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\AssemblyProcessorPreferences.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\AssemblyProcessorTrigger.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\AssemblyProcessor\Editor\TypeExtensions.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\EditorGraph.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\EditorGraphController.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\EditorGraphControllerHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\EditorGraphGUI.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\EditorGraphNode.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\EditorGraph\Editor\SlotDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Extensions\Editor\RectExtensions.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\EditorHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\FileSystemHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\ProjectBrowserHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\PropertyDrawerHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\ScriptDefinesHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\SerializedPropertyHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Helpers\Editor\StaticReflectionHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\BehaviourButtonsEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ButtonAttributeHelper.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ComponentContextMenu.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\EditorCoroutine.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ExponentInfoDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\FolderPathAttributeDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\HelpBoxDecorator.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\Isolate.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\LayerSelectorDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\MaterialContextMenu.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\OpenAssetListener.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ReadOnlyDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\RequireInterfaceDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptTemplateCreator.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptTemplatePreference.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptTemplatePreferences.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptableObjectButtonsEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptableObjectCreator.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ScriptableObjectInspectorWindow.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\ShowImplementedInterfacesDecorator.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\TagSelectorDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\TransformEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Inspector\Editor\UnitDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\ModifiableDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\NumberBoundsDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\SecureIntDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Math\Editor\TweenStepEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Preferences\Editor\BitStrapPreferences.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Tween\Editor\ParticleControllerDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Tween\Editor\TweenShaderEditor.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Tween\Editor\TweenShaderPropertiesCache.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Tween\Editor\TweenShaderPropertyDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Util\Editor\EditorPrefProperty.cs" />
-    <Compile Include="Assets\BitStrap\Plugins\Util\Editor\TimerDrawer.cs" />
-    <Compile Include="Assets\BitStrap\Shaders\Editor\BackgroundBlurEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\Av1Editor.cs" />
     <Compile Include="Assets\Scripts\Editor\LerpTestEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\TestBehaviourEditor.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\BitStrap\Docs\Changelog.txt" />
-    <None Include="Assets\BitStrap\Docs\README.txt" />
-    <None Include="Assets\BitStrap\Examples\Inspector\Editor\C%23 ScriptTemplate-BitStrap.txt" />
-    <None Include="Assets\BitStrap\Examples\Inspector\Editor\C%23 ScriptTemplate-Example.txt" />
-    <None Include="Assets\BitStrap\Examples\Inspector\Editor\C%23 ScriptTemplate-Unity.txt" />
-    <None Include="Assets\BitStrap\Plugins\NewtonsoftJson\link.xml" />
-    <None Include="Assets\BitStrap\Shaders\BackgroundBlur.shader" />
-    <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
+    <Compile Include="Assets\Scripts\PropertyDrawer\Editor\AnotherTestBehaviourEditor.cs" />
+    <Compile Include="Assets\Scripts\PropertyDrawer\Editor\ItemDrawer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
