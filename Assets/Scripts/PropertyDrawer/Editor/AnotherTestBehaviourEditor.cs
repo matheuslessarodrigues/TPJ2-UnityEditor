@@ -10,6 +10,14 @@ public class AnotherTestBehaviourEditor : Editor
 
         AnotherTestBehaviour behaviour = target as AnotherTestBehaviour;
 
+        behaviour.dano = EditorGUILayout.IntField("Dano", behaviour.dano);
+        if (behaviour.dano < 0)
+            behaviour.dano = 0;
+
+
+
+
+
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.LabelField("Item1");
         behaviour.item1.podeUsar = EditorGUILayout.Toggle(behaviour.item1.podeUsar);

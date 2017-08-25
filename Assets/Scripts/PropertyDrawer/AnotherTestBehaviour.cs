@@ -12,9 +12,9 @@ public class Item
 
 public class AnotherTestBehaviour : MonoBehaviour
 {
-	public float vida;
+    public int vida;
     [Positive]
-	public int dano;
+	public int dano; 
 	public string nome;
 	public bool morto;
 	public bool vivo;
