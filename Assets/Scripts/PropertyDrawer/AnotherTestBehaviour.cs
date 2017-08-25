@@ -12,6 +12,7 @@ public class Item
 
 public class AnotherTestBehaviour : MonoBehaviour
 {
+    [Positive]
     public int vida;
     [Positive]
 	public int dano; 
