@@ -13,6 +13,7 @@ public class Item
 public class AnotherTestBehaviour : MonoBehaviour
 {
 	public float vida;
+    [Positive]
 	public int dano;
 	public string nome;
 	public bool morto;
@@ -21,7 +22,7 @@ public class AnotherTestBehaviour : MonoBehaviour
 	public Item item1;
     public Item item2;
     public Item item3;
-
+    
     // Use this for initialization
     void Start () {
 		

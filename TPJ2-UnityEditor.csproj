@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\Av1.cs" />
     <Compile Include="Assets\Scripts\LerpTest.cs" />
     <Compile Include="Assets\Scripts\PropertyDrawer\AnotherTestBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PropertyDrawer\PositiveAttribute.cs" />
     <Compile Include="Assets\Scripts\TestBehaviour.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

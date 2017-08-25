@@ -8,6 +8,7 @@ public class ItemDrawer : PropertyDrawer {
     {
         var podeUsarProp = property.FindPropertyRelative("podeUsar");
         var nameProp = property.FindPropertyRelative("nome");
+        var danoProp = property.FindPropertyRelative("dano");
 
         Rect nameRect = new Rect(position.x, position.y,
             position.width - 32, position.height);
@@ -16,5 +17,6 @@ public class ItemDrawer : PropertyDrawer {
         Rect podeUsarRect = new Rect(nameRect.xMax, position.y,
             32, position.height);
         EditorGUI.PropertyField(podeUsarRect, podeUsarProp, GUIContent.none);
+
     }
 }
